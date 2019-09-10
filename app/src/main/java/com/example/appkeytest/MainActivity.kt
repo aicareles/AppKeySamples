@@ -2,6 +2,7 @@ package com.example.appkeytest
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import dianruisdk.ad.AdManager
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,7 +11,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        SDK.init(baseContext)
+//        SDK.init(baseContext)
+
+        AdManager.setAppKey(baseContext, "ssss")
+        AdManager.showCenter(this)
 
     }
 }
