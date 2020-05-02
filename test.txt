@@ -1,2 +1,5 @@
 这是第一条数据 -
+<<<<<<< HEAD
 the boss is stupid 
+=======
+>>>>>>> 130c275f37d367e99a98bcc1310f5dbb4603319d
